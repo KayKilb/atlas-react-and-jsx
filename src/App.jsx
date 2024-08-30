@@ -9,15 +9,15 @@ function App() {
   return <div className="App">
     <Header />
     <Section title="What is React?">
-        React is a JavaScript library by Facebook for building dynamic UIs, particularly for single-page applications. It uses a component-based structure, enabling the creation of complex UIs from small, reusable components. React's "learn once, write anywhere" philosophy makes it versatile for web and mobile apps, and its virtual DOM ensures efficient updates and smooth performance.
+    React is an open-source JavaScript library developed by Facebook for building dynamic user interfaces, especially for single-page applications. It emphasizes a component-based structure, allowing developers to build complex UIs from small, isolated pieces of code called components. React's core philosophy is "learn once, write anywhere," making it versatile for both web and mobile application development. It also efficiently handles updates and rendering with its virtual DOM, ensuring high performance and a smooth user experience.
       </Section>
       <Section title="Benefits of React">
         <ul>
-          <li>Rich Ecosystem: Offers a vast ecosystem of tools, libraries, and extensions to enhance and streamline development.</li>
-          <li>React Native Compatibility: Allows developers to create native mobile apps using the same React principles, saving time and effort across platforms.</li>
-          <li>Virtual DOM Optimization: Ensures fast and efficient rendering by only updating parts of the DOM that have changed.</li>
-          <li>Component Reusability: Enables the creation of reusable components, improving code maintainability and scalability.</li>
-          <li>Unidirectional Data Flow: Facilitates better data management and debugging through predictable state changes.</li>
+          <li>Rich Ecosystem: Provides extensive tools and libraries</li>
+          <li>React Native Compatibility: Enables cross-platform mobile app development</li>
+          <li>Virtual DOM Optimization: Ensures efficient rendering</li>
+          <li>Component Reusability: Improves maintainability and scalability</li>
+          <li>Unidirectional Data Flow: Simplifies data management and debugging</li>
         </ul>
       </Section>
   </div>
