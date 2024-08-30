@@ -1,6 +1,6 @@
-import React from 'react';
-import Greeting from "./src/components/Greeting";
-import SocialLinks from "./components/SocialLinks";
+import React from "react";
+import Greeting from "./Greeting"; // Greeting.jsx
+import SocialLinks from "./SocialLinks"; // SocialLinks.jsx
 
 const Header = () => {
     return (
@@ -10,3 +10,5 @@ const Header = () => {
         </nav>
     );
 };
+
+export default Header;

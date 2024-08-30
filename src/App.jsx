@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
-import Greeting from "./components/Greeting.jsx";
-import SocialLinks from "./components/SocialLinks";
+// import Greeting from "./components/Greeting.jsx";
+// import SocialLinks from "./components/SocialLinks";
 
 function App() {
   // return <div className="app">Hello Atlas</div>;
