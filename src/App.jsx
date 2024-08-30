@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import Greeting from "./components/Greeting";
+import Greeting from "./components/Greeting.jsx";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
