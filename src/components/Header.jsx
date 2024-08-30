@@ -1,6 +1,6 @@
 import React from 'react';
-import Greeting from './Greeting';
-import SocialLinks from './SocialLinks';
+import Greeting from './components/Greeting';
+import SocialLinks from './components/SocialLinks';
 
 const Header = () => {
     return (
