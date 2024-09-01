@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import HelpfulResource from "./components/HelpfulResource";
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 // import Greeting from "./components/Greeting.jsx";
 // import SocialLinks from "./components/SocialLinks";
 
@@ -38,6 +39,7 @@ function App() {
       </Section>
       <div style={{ marginTop: '20px' }}>
       <AboutMe />
+      <Footer />
       </div>
     </div>
   );
