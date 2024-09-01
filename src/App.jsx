@@ -35,7 +35,7 @@ function App() {
           link="https://react.dev/"
           label="Learn React"
         />
-        <AboutMe/>
+        <AboutMe />
       </Section>
     </div>
   );
