@@ -9,7 +9,7 @@ const Footer = () => {
             <ul>
             {links.map((link, index) => (
                     <li key={index}>
-                        <a href={link.url} target="_blank" rel="noopener noreferrer">
+                        <a href={link.link} target="_blank" rel="noopener noreferrer">
                             {link.label}
                         </a>
                     </li>
