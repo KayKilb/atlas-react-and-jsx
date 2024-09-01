@@ -6,11 +6,11 @@ import HelpfulResource from "./components/HelpfulResource";
 // import SocialLinks from "./components/SocialLinks";
 
 function App() {
-  // return <div className="app">Hello Atlas</div>;
-  return <div className="App">
-    <Header />
-    <Section title="What is React?">
-    React is an open-source JavaScript library developed by Facebook for building dynamic user interfaces, especially for single-page applications. It emphasizes a component-based structure, allowing developers to build complex UIs from small, isolated pieces of code called components. React's core philosophy is "learn once, write anywhere," making it versatile for both web and mobile application development. It also efficiently handles updates and rendering with its virtual DOM, ensuring high performance and a smooth user experience.
+  return (
+    <div className="App">
+      <Header />
+      <Section title="What is React?">
+        React is an open-source JavaScript library developed by Facebook for building dynamic user interfaces, especially for single-page applications. It emphasizes a component-based structure, allowing developers to build complex UIs from small, isolated pieces of code called components. React's core philosophy is "learn once, write anywhere," making it versatile for both web and mobile application development. It also efficiently handles updates and rendering with its virtual DOM, ensuring high performance and a smooth user experience.
       </Section>
       <Section title="Benefits of React">
         <ul>
@@ -34,8 +34,9 @@ function App() {
           link="https://www.freecodecamp.org/news/learn-react-by-building-a-simple-app/"
           label="Learn React by Building a Simple App (FreeCodeCamp)"
         />
-        </Section>
-  </div>
+      </Section>
+    </div>
+  );
 }
 
 export default App;
