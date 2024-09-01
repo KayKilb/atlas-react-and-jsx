@@ -1,10 +1,11 @@
 import React from 'react';
+import profilePicture from '..assets/KayleneKilbourn.jpg';
 
 const AboutMe = () => {
     return (
         <div className="about-me">
             <img
-                src="KayleneKilbourn.jpg"
+                src={profilePicture}
                 alt="Kaylene Kilbourn"
                 style={{ width: '150px', borderRadius: '50%' }}
                 />
