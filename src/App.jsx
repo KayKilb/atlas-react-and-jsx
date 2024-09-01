@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Section from "./components/Section";
+import HelpfulResource from "./components/HelpfulResource";
 // import Greeting from "./components/Greeting.jsx";
 // import SocialLinks from "./components/SocialLinks";
 
@@ -20,8 +21,21 @@ function App() {
           <li>Unidirectional Data Flow: Simplifies data management and debugging</li>
         </ul>
       </Section>
+      <Section title="Helpful Resources">
+        <HelpfulResource
+          link="https://reactjs.org/docs/getting-started.html"
+          label="Official React Documentation"
+        />
+        <HelpfulResource
+          link="https://egghead.io/courses/the-beginner-s-guide-to-react"
+          label="Beginner's Guide to React (Egghead)"
+        />
+        <HelpfulResource
+          link="https://www.freecodecamp.org/news/learn-react-by-building-a-simple-app/"
+          label="Learn React by Building a Simple App (FreeCodeCamp)"
+        />
+        </Section>
   </div>
 }
 
 export default App;
-
