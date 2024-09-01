@@ -1,6 +1,6 @@
 import React from 'react';
-import OpenLink from './OpenLink.jsx';
-import CopyLink from './CopyLink.jsx';
+import OpenLink from './OpenLink';
+import CopyLink from './CopyLink';
 
 const HelpfulReasource = ({ link, label}) => {
     return (
