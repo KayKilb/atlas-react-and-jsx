@@ -1,14 +1,13 @@
 import React from 'react';
-import copyIcon from '../assets/copy.svg'; //path to copy icon
+import copyIcon from '../assets/copy.svg'; // Adjust path as needed
 
 const CopyLink = ({ link }) => {
     const handleClick = () => {
         navigator.clipboard.writeText(link);
     };
 
-    retun (
-        <
-        img
+    return (
+        <img
             src={copyIcon}
             alt="Copy Link"
             className="copy"
