@@ -35,8 +35,10 @@ function App() {
           link="https://react.dev/"
           label="Learn React"
         />
-        <AboutMe />
       </Section>
+      <div style={{ marginTop: '20px' }}>
+      <AboutMe />
+      </div>
     </div>
   );
 }
