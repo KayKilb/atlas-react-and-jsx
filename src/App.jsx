@@ -31,8 +31,8 @@ function App() {
           label="Beginner's Guide to React (Egghead)"
         />
         <HelpfulResource
-          link="https://reactjs.org/docs/getting-started.html"
-          label="Official React Documentation"
+          link="https://react.dev/"
+          label="Learn React"
         />
       </Section>
     </div>
