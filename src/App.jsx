@@ -23,16 +23,16 @@ function App() {
       </Section>
       <Section title="Helpful Resources">
         <HelpfulResource
-          link="https://reactjs.org/docs/getting-started.html"
-          label="Official React Documentation"
+          link="https://www.techmagic.co/blog/why-we-use-react-js-in-the-development/"
+          label="10 Key Reasons Why You Should Use React for Web Development"
         />
         <HelpfulResource
           link="https://egghead.io/courses/the-beginner-s-guide-to-react"
           label="Beginner's Guide to React (Egghead)"
         />
         <HelpfulResource
-          link="https://www.freecodecamp.org/news/learn-react-by-building-a-simple-app/"
-          label="Learn React by Building a Simple App (FreeCodeCamp)"
+          link="https://reactjs.org/docs/getting-started.html"
+          label="Official React Documentation"
         />
       </Section>
     </div>
