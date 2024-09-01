@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePicture from '..assets/KayleneKilbourn.jpg';
+import profilePicture from '../assets/KayleneKilbourn.jpg';
 
 const AboutMe = () => {
     return (
@@ -8,10 +8,10 @@ const AboutMe = () => {
                 src={profilePicture}
                 alt="Kaylene Kilbourn"
                 style={{ width: '150px', borderRadius: '50%' }}
-                />
-                <p>
-                Hi, I'm [Your Name]. I'm specializing in [Your Spec] and currently in my [Trimester] trimester. I love working with [Your Favorite Languages/Technologies]. After school, I plan to [Your Future Plans]. Outside of work and school, I enjoy [Your Hobbies].
-                </p>
+            />
+            <p>
+                Hi, I'm Kaylene Kilbourn. I'm specializing in Full Stack Web Development and currently in my 5th and final trimester. I love working with React, Python, and HTML. After school, I plan to work in an industry that fulfills both my creative and logical sides. Outside of work and school, I enjoy reading, photography, and Pokémon GO.
+            </p>
         </div>
     );
 };
