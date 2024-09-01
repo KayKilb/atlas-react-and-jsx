@@ -2,7 +2,7 @@ import React from 'react';
 import OpenLink from './OpenLink';
 import CopyLink from './CopyLink';
 
-const HelpfulReasource = ({ link, label}) => {
+const HelpfulResource = ({ link, label }) => {
     return (
         <div className="helpful-resource">
             <span>{label}</span>

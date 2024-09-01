@@ -1,5 +1,5 @@
 import React from 'react';
-import OpenIcon from '../assets/open.svg';
+import openIcon from '../assets/open.svg';
 
 const OpenLink = ({ link }) => {
     const handleClick = () => {
